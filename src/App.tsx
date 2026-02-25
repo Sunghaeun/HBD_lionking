@@ -138,17 +138,11 @@ const INITIAL_MESSAGES: Message[] = [
 
 function App() {
   const [messages, setMessages] = useState<Message[]>(INITIAL_MESSAGES);
-  const [isDarkMode, setIsDarkMode] = useState(true);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [selectedMessage, setSelectedMessage] = useState<Message | null>(null);
   const [newName, setNewName] = useState('');
   const [newRole, setNewRole] = useState('');
   const [newContent, setNewContent] = useState('');
 
-  const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode);
-    document.documentElement.classList.toggle('dark');
-  };
 
   const handleAddMessage = (e: React.FormEvent) => {
     e.preventDefault();
@@ -178,7 +172,7 @@ function App() {
   };
 
   return (
-    <div className={isDarkMode ? 'dark' : ''}>
+    <div className={'dark'}>
       <div className="bg-background-light dark:bg-background-dark text-gray-900 dark:text-gray-100 font-display transition-colors duration-300 min-h-screen">
         {/* Top Marquee */}
         <div className="bg-primary py-1 overflow-hidden select-none border-b border-black/10">
