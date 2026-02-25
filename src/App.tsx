@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import confetti from "canvas-confetti";
 
 interface Message {
   id: number;
@@ -9,6 +10,7 @@ interface Message {
   likes: number;
   initial: string;
   isFeatured?: boolean;
+  imageUrl?: string; // 추가
 }
 
 const INITIAL_MESSAGES: Message[] = [
@@ -22,6 +24,26 @@ const INITIAL_MESSAGES: Message[] = [
     initial: "유"
   },
   {
+    id: 101,
+    name: "PHOTO DROP",
+    role: "Memory",
+    content: "",
+    date: "2026.02.25",
+    likes: 0,
+    initial: "P",
+    imageUrl: "/img1.png"
+  },
+  {
+    id: 102,
+    name: "PHOTO DROP",
+    role: "Memory",
+    content: "",
+    date: "2026.02.25",
+    likes: 0,
+    initial: "P",
+    imageUrl: "/img2.png"
+  },
+  {
     id: 6,
     name: "lion1",
     role: "Lion",
@@ -32,13 +54,25 @@ const INITIAL_MESSAGES: Message[] = [
     isFeatured: true
   },
   {
+    id: 103,
+    name: "PHOTO DROP",
+    role: "Memory",
+    content: "",
+    date: "2026.02.25",
+    likes: 0,
+    initial: "P",
+    isFeatured: true,
+    imageUrl: "/img3.png"
+  },
+  {
     id: 7,
     name: "멋사의 충신",
     role: "Core Member",
     content: "탄일을 경하드리옵니다.\n앞으로도 만수무강 하시기를 기원하옵나이다. 허허허\n성군이신 대표님 덕분에 멋사가 평안히 운영되고 있는 듯 하옵니다.\n앞으로도 함께 정사를 잘 운영하면 좋을 듯 하옵니다.\n다시 한번 경하드리옵니다.\n행복하고 즐거운 탄일이 되시기를 바라고 원하옵나이다.\n\n그럼 이럼 저는 이만~~ 허허",
     date: "2026.02.25",
     likes: 301,
-    initial: "충"
+    initial: "충",
+    imageUrl: "public/img16.png"
   },
   {
     id: 8,
@@ -48,7 +82,17 @@ const INITIAL_MESSAGES: Message[] = [
     date: "2026.02.25",
     likes: 167,
     initial: "기",
-    isFeatured: true
+    imageUrl: "public/img17.png"
+  },
+  {
+    id: 104,
+    name: "PHOTO DROP",
+    role: "Memory",
+    content: "",
+    date: "2026.02.25",
+    likes: 0,
+    initial: "P",
+    imageUrl: "/img4.png"
   },
   {
     id: 9,
@@ -60,15 +104,26 @@ const INITIAL_MESSAGES: Message[] = [
     initial: "서"
   },
   {
-    id: 10,
-    name: "lion2",
-    role: "Lion",
-    content: "대표님, 안나세요 생일 축하드려요 ㅎㅎ 같이 13기로 시작해 14기까지 함께할 수 있어서, 영광이라고 생각합니다.\n어려운 일이 있을 때, 같이 해결해나갈 수 있는 동지가 되어주셔서 늘 감사합니다.\n뭔가 약간 공통점이 많은 듯한 저희 ... 더욱 친해지도록 하고, 앞으로도 좋은 추억 많이 쌓아보도록 해요 ~\nㅎㅎ ^^",
+    id: 105,
+    name: "PHOTO DROP",
+    role: "Memory",
+    content: "",
     date: "2026.02.25",
-    likes: 189,
-    initial: "L"
+    likes: 0,
+    initial: "P",
+    isFeatured: true,
+    imageUrl: "/img5.png"
   },
   {
+    id: 106,
+    name: "PHOTO DROP",
+    role: "Memory",
+    content: "",
+    date: "2026.02.25",
+    likes: 0,
+    initial: "P",
+    imageUrl: "/img6.png"
+  },{
     id: 11,
     name: "lion3",
     role: "Lion",
@@ -77,6 +132,16 @@ const INITIAL_MESSAGES: Message[] = [
     likes: 332,
     initial: "L",
     isFeatured: true
+  },
+  {
+    id: 110,
+    name: "PHOTO DROP",
+    role: "Memory",
+    content: "",
+    date: "2026.02.25",
+    likes: 0,
+    initial: "P",
+    imageUrl: "/img10.png"
   },
   {
     id: 12,
@@ -88,6 +153,27 @@ const INITIAL_MESSAGES: Message[] = [
     initial: "김"
   },
   {
+    id: 115,
+    name: "PHOTO DROP",
+    role: "Memory",
+    content: "",
+    date: "2026.02.25",
+    likes: 0,
+    initial: "P",
+    imageUrl: "/img15.png"
+  },
+  {
+    id: 10,
+    name: "lion2",
+    role: "Lion",
+    content: "대표님, 안나세요 생일 축하드려요 ㅎㅎ 같이 13기로 시작해 14기까지 함께할 수 있어서, 영광이라고 생각합니다.\n어려운 일이 있을 때, 같이 해결해나갈 수 있는 동지가 되어주셔서 늘 감사합니다.\n뭔가 약간 공통점이 많은 듯한 저희 ... 더욱 친해지도록 하고, 앞으로도 좋은 추억 많이 쌓아보도록 해요 ~\nㅎㅎ ^^",
+    date: "2026.02.25",
+    likes: 189,
+    initial: "L",
+    isFeatured: true,
+    imageUrl: "public/img8.png"
+  },
+  {
     id: 13,
     name: "홍총무",
     role: "Finance",
@@ -96,6 +182,26 @@ const INITIAL_MESSAGES: Message[] = [
     likes: 276,
     initial: "홍",
     isFeatured: true
+  },
+  {
+    id: 112,
+    name: "PHOTO DROP",
+    role: "Memory",
+    content: "",
+    date: "2026.02.25",
+    likes: 0,
+    initial: "P",
+    imageUrl: "/img12.png"
+  },
+  {
+    id: 114,
+    name: "PHOTO DROP",
+    role: "Memory",
+    content: "",
+    date: "2026.02.25",
+    likes: 0,
+    initial: "P",
+    imageUrl: "/img14.png"
   },
   {
     id: 14,
@@ -123,7 +229,8 @@ const INITIAL_MESSAGES: Message[] = [
     date: "2026.02.26",
     likes: 701,
     initial: "L",
-    isFeatured: true
+    isFeatured: true,
+    imageUrl: "public/img13.png"
   },
   {
     id: 17,
@@ -133,7 +240,17 @@ const INITIAL_MESSAGES: Message[] = [
     date: "2026.02.26",
     likes: 389,
     initial: "L"
-  }
+  },
+  {
+    id: 118,
+    name: "PHOTO DROP",
+    role: "Memory",
+    content: "",
+    date: "2026.02.25",
+    likes: 999,
+    initial: "P",
+    imageUrl: "/img18.JPG"
+  },
 ];
 
 function App() {
@@ -142,6 +259,28 @@ function App() {
   const [newName, setNewName] = useState('');
   const [newRole, setNewRole] = useState('');
   const [newContent, setNewContent] = useState('');
+
+  const fireConfetti = () => {
+    const duration = 1200;
+    const end = Date.now() + duration;
+  
+    const frame = () => {
+      confetti({
+        particleCount: 6,
+        startVelocity: 35,
+        spread: 360,
+        ticks: 70,
+        origin: {
+          x: Math.random(),
+          y: Math.random() * 0.3
+        }
+      });
+  
+      if (Date.now() < end) requestAnimationFrame(frame);
+    };
+  
+    frame();
+  };
 
 
   const handleAddMessage = (e: React.FormEvent) => {
@@ -216,13 +355,15 @@ function App() {
                 {"\n"}{"}"}
             </pre>
             <div className="mt-8 flex justify-center">
-              <button 
-                onClick={() => setIsModalOpen(true)}
-                className="bg-primary hover:bg-orange-600 text-white font-bold py-4 px-10 rounded-full flex items-center gap-2 transition-all transform hover:scale-105 active:scale-95 shadow-xl shadow-primary/30"
-              >
-                <span className="material-icons">rocket_launch</span>
-                축하 메시지 배포하기
-              </button>
+            <button
+              onClick={() => {
+                fireConfetti();
+              }}
+              className="bg-primary hover:bg-orange-600 text-white font-bold py-4 px-10 rounded-full flex items-center gap-2 transition-all transform hover:scale-105 active:scale-95 shadow-xl shadow-primary/30"
+            >
+              <span className="material-icons">rocket_launch</span>
+              축하 메시지 배포하기
+            </button>
             </div>
           </div>
         </section>
@@ -256,6 +397,21 @@ function App() {
                     </p>
                   </div>
                 </div>
+
+                {/* 이미지 렌더 추가 */}
+                {msg.imageUrl && (
+                  <div className="mb-4">
+                    <img
+                      src={msg.imageUrl}
+                      alt={`${msg.name} message image`}
+                      className={`w-full h-auto object-contain rounded-xl border ${
+                        msg.isFeatured ? 'border-white/20' : 'border-gray-200 dark:border-gray-800'
+                      }`}
+                      loading="lazy"
+                    />
+                  </div>
+                )}
+
                 <p className={`text-sm leading-relaxed mb-6 ${msg.isFeatured ? 'text-white italic font-medium' : 'text-gray-700 dark:text-gray-300'}`}>
                   {msg.isFeatured ? `"${msg.content}"` : msg.content}
                 </p>
