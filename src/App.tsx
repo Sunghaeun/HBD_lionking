@@ -157,7 +157,7 @@ function App() {
     const newMessage: Message = {
       id: Date.now(),
       name: newName,
-      role: newRole || 'Lion Member',
+      role: newRole || 'Lion Member', 
       content: newContent,
       date: new Date().toISOString().split('T')[0].replace(/-/g, '.'),
       likes: 0,
