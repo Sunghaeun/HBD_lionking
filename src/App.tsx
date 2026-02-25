@@ -72,7 +72,7 @@ const INITIAL_MESSAGES: Message[] = [
     date: "2026.02.25",
     likes: 301,
     initial: "충",
-    imageUrl: "public/img16.png"
+    imageUrl: "/img16.png"
   },
   {
     id: 8,
@@ -82,7 +82,7 @@ const INITIAL_MESSAGES: Message[] = [
     date: "2026.02.25",
     likes: 167,
     initial: "기",
-    imageUrl: "public/img17.png"
+    imageUrl: "/img17.png"
   },
   {
     id: 104,
@@ -171,7 +171,7 @@ const INITIAL_MESSAGES: Message[] = [
     likes: 189,
     initial: "L",
     isFeatured: true,
-    imageUrl: "public/img8.png"
+    imageUrl: "/img8.png"
   },
   {
     id: 13,
@@ -230,7 +230,7 @@ const INITIAL_MESSAGES: Message[] = [
     likes: 701,
     initial: "L",
     isFeatured: true,
-    imageUrl: "public/img13.png"
+    imageUrl: "/img13.png"
   },
   {
     id: 17,
