@@ -19,7 +19,7 @@ const INITIAL_MESSAGES: Message[] = [
     name: "PHOTO DROP",
     role: "Memory",
     content: "",
-    date: "2026.02.25",
+    date: "2026.02.26",
     likes: 0,
     initial: "P",
     imageUrl: "/img30.jpg"
@@ -29,7 +29,7 @@ const INITIAL_MESSAGES: Message[] = [
     name: "윤채",
     role: "14th un-yeongjin",
     content: "멋사의 자랑.\n멋사의 중심.\n멋사의 기둥인\n13기 프론트 최고의 아웃풋 원진 오빠! 생일 축하해요~~!!🎂🎉\n대표님 덕분에 늘 든든합니당ㅎㅎ\n항상 멋사를 위해 애써줘서 고마워요!\n행복 가득한 하루 보내세요",
-    date: "2026.02.25",
+    date: "2026.02.26",
     likes: 213,
     initial: "윤"
   },
@@ -38,7 +38,7 @@ const INITIAL_MESSAGES: Message[] = [
     name: "PHOTO DROP",
     role: "Memory",
     content: "",
-    date: "2026.02.25",
+    date: "2026.02.26",
     likes: 0,
     initial: "P",
     imageUrl: "/img1.png"
@@ -48,7 +48,7 @@ const INITIAL_MESSAGES: Message[] = [
     name: "lion1",
     role: "14th un-yeongjin",
     content: "아 뭐라고 쓰지~\n김대표님 생신 축하드립니다.\n당신이 있어, 멋사가 더욱 밝아질 수 있었습니다.\n그대 참 멋진 사람... 주황색은 #FF731D 쓸 사람 쓰기",
-    date: "2026.02.25",
+    date: "2026.02.26",
     likes: 144,
     initial: "L",
     isFeatured: true
@@ -58,7 +58,7 @@ const INITIAL_MESSAGES: Message[] = [
     name: "PHOTO DROP",
     role: "Memory",
     content: "",
-    date: "2026.02.25",
+    date: "2026.02.26",
     likes: 0,
     initial: "P",
     isFeatured: true,
@@ -69,7 +69,7 @@ const INITIAL_MESSAGES: Message[] = [
     name: "멋사의 충신",
     role: "14th un-yeongjin",
     content: "탄일을 경하드리옵니다.\n앞으로도 만수무강 하시기를 기원하옵나이다. 허허허\n성군이신 대표님 덕분에 멋사가 평안히 운영되고 있는 듯 하옵니다.\n앞으로도 함께 정사를 잘 운영하면 좋을 듯 하옵니다.\n다시 한번 경하드리옵니다.\n행복하고 즐거운 탄일이 되시기를 바라고 원하옵나이다.\n\n그럼 이럼 저는 이만~~ 허허",
-    date: "2026.02.25",
+    date: "2026.02.26",
     likes: 301,
     initial: "충",
     imageUrl: "/img16.png"
@@ -79,7 +79,7 @@ const INITIAL_MESSAGES: Message[] = [
     name: "멋사 최강 기획자",
     role: "14th un-yeongjin",
     content: "그래 원진아, 벌써 멋사에서 회장 열심히 하는 모습 보기 좋다.\n오늘 생일 축하하고 원진이 멋사 열심히 이끌어 나가보거라.\n나도 올해 멋쟁이 사자처럼 처음 입학해서 열심히 성장중이니 혹시나 다음에 마주치면 해커톤이나 한번 뜨자.",
-    date: "2026.02.25",
+    date: "2026.02.26",
     likes: 167,
     initial: "기",
     imageUrl: "/img17.png"
@@ -89,7 +89,7 @@ const INITIAL_MESSAGES: Message[] = [
     name: "PHOTO DROP",
     role: "Memory",
     content: "",
-    date: "2026.02.25",
+    date: "2026.02.26",
     likes: 0,
     initial: "P",
     imageUrl: "/img4.png"
@@ -99,7 +99,7 @@ const INITIAL_MESSAGES: Message[] = [
     name: "PHOTO DROP",
     role: "Memory",
     content: "",
-    date: "2026.02.25",
+    date: "2026.02.26",
     likes: 0,
     initial: "P",
     imageUrl: "/img2.png"
@@ -109,7 +109,7 @@ const INITIAL_MESSAGES: Message[] = [
     name: "서연",
     role: "14th un-yeongjin",
     content: "원진킴 생일 축하해여 !!!!\n대표 일 이것저것 한다고 바쁠 텐데 고생이 많습니다....\n멋사를 위해 개인 시간 내가며 챙겨줘서 항상 고마워요 !!\n그리고 프론트 밥고... 이번 학기는 잘 진행되길\n담학기 인컴상 같이 듣는데 멋사 카르텔 ㅋㅋ\n행복한 생일 보내시고 다시 한 번 생일 축하해여!!!~~",
-    date: "2026.02.25",
+    date: "2026.02.26",
     likes: 256,
     initial: "서"
   },
@@ -118,7 +118,7 @@ const INITIAL_MESSAGES: Message[] = [
     name: "PHOTO DROP",
     role: "Memory",
     content: "",
-    date: "2026.02.25",
+    date: "2026.02.26",
     likes: 0,
     initial: "P",
     isFeatured: true,
@@ -129,7 +129,7 @@ const INITIAL_MESSAGES: Message[] = [
     name: "PHOTO DROP",
     role: "Memory",
     content: "",
-    date: "2026.02.25",
+    date: "2026.02.26",
     likes: 0,
     initial: "P",
     imageUrl: "/img6.png"
@@ -139,7 +139,7 @@ const INITIAL_MESSAGES: Message[] = [
     name: "lion3",
     role: "14th un-yeongjin",
     content: "원진아 우리가 서로의 생일을 축하해준 지 벌써 6년이 되어가는 게 믿기지 않는구나..\n그동안 정말 멋진 친구로 지내며 함께 성장할 수 있어서 감사하다.\n앞으로 남은 학교생활도 같이 힘내보자.\n생일을 진심으로 축하한다!",
-    date: "2026.02.25",
+    date: "2026.02.26",
     likes: 332,
     initial: "L",
     isFeatured: true
@@ -149,7 +149,7 @@ const INITIAL_MESSAGES: Message[] = [
     name: "PHOTO DROP",
     role: "Memory",
     content: "",
-    date: "2026.02.25",
+    date: "2026.02.26",
     likes: 0,
     initial: "P",
     imageUrl: "/img31.jpg"
@@ -159,7 +159,7 @@ const INITIAL_MESSAGES: Message[] = [
     name: "홍총무",
     role: "14th un-yeongjin",
     content: "늘 든든한 원진 대표님~ 생일 많이 축하해!!\n지난 2학기 인수인계부터 시작해서 벌써 5달째 되어 가고 있는데, 네 덕분에 놓칠 뻔한 부분들도 잘 챙길 수 있었고 14기 운영이 더욱 수월했던 것 같네.\n아무래도 14기를 원진 대표 빼고는 설명하기 어려워~\n늘 보이지 않는 곳에서도 묵묵히 책임을 다해주어 고맙고 끝까지 힘내보자.\n행복한 생일 되길 바랄게)\n\n- 홍총무 -",
-    date: "2026.02.25",
+    date: "2026.02.26",
     likes: 276,
     initial: "홍"
   },
@@ -168,7 +168,7 @@ const INITIAL_MESSAGES: Message[] = [
     name: "PHOTO DROP",
     role: "Memory",
     content: "",
-    date: "2026.02.25",
+    date: "2026.02.26",
     likes: 0,
     initial: "P",
     isFeatured: true,
@@ -179,7 +179,7 @@ const INITIAL_MESSAGES: Message[] = [
     name: "PHOTO DROP",
     role: "Memory",
     content: "",
-    date: "2026.02.25",
+    date: "2026.02.26",
     likes: 0,
     initial: "P",
     imageUrl: "/img15.png"
@@ -189,7 +189,7 @@ const INITIAL_MESSAGES: Message[] = [
     name: "김부대표",
     role: "14th un-yeongjin",
     content: "김대표 !!!! 나 김부대표일세 ㅎㅎ\n항상 멋대를 생각하는 섬세하고 꼼꼼한 너를 보며 많이 배운다.\n너를 파트너로 만나 정말 다행이야 ..\n뭐든 네가 있다고 생각하니 걱정이 없다 !!!!\n앞으로 남은 일정도 힘내서 최고의 케미를 보여주자 ㅎㅎ\n생일 너무 축하하고 곧 만나 ^^",
-    date: "2026.02.25",
+    date: "2026.02.26",
     likes: 418,
     initial: "김"
   },
@@ -198,7 +198,7 @@ const INITIAL_MESSAGES: Message[] = [
     name: "lion2",
     role: "14th un-yeongjin",
     content: "대표님, 안나세요 생일 축하드려요 ㅎㅎ 같이 13기로 시작해 14기까지 함께할 수 있어서, 영광이라고 생각합니다.\n어려운 일이 있을 때, 같이 해결해나갈 수 있는 동지가 되어주셔서 늘 감사합니다.\n뭔가 약간 공통점이 많은 듯한 저희 ... 더욱 친해지도록 하고, 앞으로도 좋은 추억 많이 쌓아보도록 해요 ~\nㅎㅎ ^^",
-    date: "2026.02.25",
+    date: "2026.02.26",
     likes: 189,
     initial: "L",
     isFeatured: true,
@@ -209,7 +209,7 @@ const INITIAL_MESSAGES: Message[] = [
     name: "PHOTO DROP",
     role: "Memory",
     content: "래미한테 거절당한 대표님 😿",
-    date: "2026.02.25",
+    date: "2026.02.26",
     likes: 0,
     initial: "P",
     imageUrl: "/img32.JPG"
@@ -219,7 +219,7 @@ const INITIAL_MESSAGES: Message[] = [
     name: "PHOTO DROP",
     role: "Memory",
     content: "",
-    date: "2026.02.25",
+    date: "2026.02.26",
     likes: 0,
     initial: "P",
     imageUrl: "/img12.png"
@@ -229,7 +229,7 @@ const INITIAL_MESSAGES: Message[] = [
     name: "PHOTO DROP",
     role: "Memory",
     content: "",
-    date: "2026.02.25",
+    date: "2026.02.26",
     likes: 0,
     initial: "P",
     imageUrl: "/img14.png"
@@ -239,7 +239,7 @@ const INITIAL_MESSAGES: Message[] = [
     name: "Lion6",
     role: "14th un-yeongjin",
     content: "대표님, 생신축하드려요!!\n항상 14기 멋대를 위해 노력하시고 힘써주셔서 감사합니다~\n앞으로 남은 멋대 일정들 같이 화이팅해봐요ㅎㅎ🥳🥳",
-    date: "2026.02.25",
+    date: "2026.02.26",
     likes: 152,
     initial: "L"
   },
@@ -248,7 +248,7 @@ const INITIAL_MESSAGES: Message[] = [
     name: "PHOTO DROP",
     role: "Memory",
     content: "",
-    date: "2026.02.25",
+    date: "2026.02.26",
     likes: 0,
     initial: "P",
     imageUrl: "/img33.JPG"
@@ -287,7 +287,7 @@ const INITIAL_MESSAGES: Message[] = [
     name: "PHOTO DROP",
     role: "Memory",
     content: "",
-    date: "2026.02.25",
+    date: "2026.02.26",
     likes: 999,
     initial: "P",
     imageUrl: "/img18.JPG"
